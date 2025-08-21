@@ -10,7 +10,7 @@ database.connectDB();
 
 
 app.use(cors({
-    origin: 'http://localhost:5173', // Adjust this to your frontend URL    ));
+    origin: 'https://cosma-beauty-demo-bice.vercel.app', // Adjust this to your frontend URL    ));
     withCredentials: true 
 }));
 app.use(express.json());
