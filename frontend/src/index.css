@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.equiryName-scrollbar::-webkit-scrollbar {
+  display: none;
+}
